@@ -17,13 +17,12 @@ display: flex;
 margin-inline: 75px;
 justify-content: space-between;
 width: 100%;
-background-color: #212529;
-color:rgb(255, 255, 255);
 }
 .navbar-brand{
     display: flex;
     font-size: 1.75em;
     color:rgb(255, 255, 255);
+    padding: 2%;
 }
 .nav-barelements{
     display: flex;
@@ -32,5 +31,6 @@ color:rgb(255, 255, 255);
 
 .nav-element{
     display: flex;
-    padding: 3%;
+    padding: 7%;
+    color:rgb(255, 255, 255);
 }
