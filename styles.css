@@ -102,3 +102,42 @@ height: 100%;
     margin-top: auto;
     margin-bottom: auto;
 }
+.part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.img{
+    margin: 30px;
+}
+
+.img img{
+    height: 300px;
+}
+.About{
+    background-color: #1abc9c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #fff;
+}
+.paragraphs{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    justify-content: space-between;
+    font-size: medium;
+}
+.paragraph{
+    margin: 5%;
+}
